@@ -1,17 +1,24 @@
 package test;
 
 public class Character {
-
+    
     String name;
-    int life;
-    String role;
+    Double tiobe;
+    Double pypl;
+    Double so;
+    Double gho;
+    Double intrv;
 
-    public void atk(int str) {
-        System.out.println("Attack with: " + str);
-    }
+//     String name;
+//     int life;
+//     String role;
 
-    public void def(int protection) {
-        System.out.println("Use defense power: " + protection);
-    }
+//     public void atk(int str) {
+//         System.out.println("Attack with: " + str);
+//     }
+
+//     public void def(int protection) {
+//         System.out.println("Use defense power: " + protection);
+//     }
 
 }
