@@ -3,11 +3,23 @@ package test;
 public class Character {
     
     String name;
-    Double tiobe;
-    Double pypl;
-    Double so;
-    Double gho;
-    Double intrv;
+//     valodas nosaukums
+    
+    double tiobe;
+//     TIOBE index
+    
+    double pypl;
+//     PyPL rating
+    
+    double so;
+//     StackOverFlow rating
+    
+    double gho;
+//     GitHUB Octoverse rating
+    
+    double intrv;
+//     user interview results
+    
 
 //     String name;
 //     int life;
