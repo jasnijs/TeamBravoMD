@@ -24,7 +24,7 @@ public class Main {
         c.intrv = 39.56 + rand.nextDouble(6) - 3;
 //         Valodas "C" reitingu parametru vērtības
         
-        Java java = nev Java();
+        Java java = new Java();
         java.name = "Java";
         java.tiobe = 10.71 + rand.nextDouble(6) - 3;
         java.pypl = 17.27 + rand.nextDouble(6) - 3;
@@ -42,13 +42,13 @@ public class Main {
         js.intrv = 61.51 + rand.nextDouble(6) - 3;
 //         Valodas "JavaScrypt" reitingu parametru vērtības
         
-        LangC# c# = new LangC#();
-        c#.name = "JavaScrypt";
-        c#.tiobe = 2.66 + rand.nextDouble(6) - 3;
-        c#.pypl = 8.97 + rand.nextDouble(6) - 3;
-        c#.so = 64.96 + rand.nextDouble(6) - 3;
-        c#.gho = 10 + rand.nextDouble(2) - 1;
-        c#.intrv = 61.51 + rand.nextDouble(6) - 3;
+        LangChash chash = new LangChash();
+        chash.name = "JavaScrypt";
+        chash.tiobe = 2.66 + rand.nextDouble(6) - 3;
+        chash.pypl = 8.97 + rand.nextDouble(6) - 3;
+        chash.so = 64.96 + rand.nextDouble(6) - 3;
+        chash.gho = 10 + rand.nextDouble(2) - 1;
+        chash.intrv = 61.51 + rand.nextDouble(6) - 3;
 //         Valodas "C#" reitingu parametru vērtības
         
         
