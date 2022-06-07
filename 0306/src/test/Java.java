@@ -1,6 +1,6 @@
-package test;
-public class Java extends Character {
-
-
-
-}
+//package test;
+//public class Java extends Character {
+//
+//
+//
+//}

@@ -1,5 +1,5 @@
-package test;
-public class LangChash extends Character {
-
-
-}
+//package test;
+//public class LangChash extends Character {
+//
+//
+//}

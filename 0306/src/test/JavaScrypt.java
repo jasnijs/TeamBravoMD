@@ -1,5 +1,5 @@
-package test;
-public class JavaScrypt extends Character {
-
-
-}
+//package test;
+//public class JavaScrypt extends Character {
+//
+//
+//}
