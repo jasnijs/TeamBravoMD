@@ -1,5 +1,6 @@
 package test;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,7 +35,7 @@ public class Main {
 //         Valodas "Java" reitingu parametru vērtības
         
         JavaScrypt js = new JavaScrypt();
-        js.name = "JavaScrypt";
+        js.name = "JavaScript";
         js.tiobe = 2.66 + rand.nextDouble(6) - 3;
         js.pypl = 8.97 + rand.nextDouble(6) - 3;
         js.so = 64.96 + rand.nextDouble(6) - 3;
@@ -43,14 +44,149 @@ public class Main {
 //         Valodas "JavaScrypt" reitingu parametru vērtības
         
         LangChash chash = new LangChash();
-        chash.name = "JavaScrypt";
+        chash.name = "C#";
         chash.tiobe = 2.66 + rand.nextDouble(6) - 3;
         chash.pypl = 8.97 + rand.nextDouble(6) - 3;
         chash.so = 64.96 + rand.nextDouble(6) - 3;
         chash.gho = 10 + rand.nextDouble(2) - 1;
         chash.intrv = 61.51 + rand.nextDouble(6) - 3;
 //         Valodas "C#" reitingu parametru vērtības
-        
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("You are up against C#");
+        System.out.println("Choose your language: Java | Python | C | JavaScript");
+
+        String lang = sc.nextLine().toLowerCase();
+
+        System.out.println("You chose: " + lang);
+
+
+        while (true) {
+
+            String input = sc.nextLine().toLowerCase();
+
+//            if (input.contains("java")) {
+                if (input.contains("first")) {
+                    boolean first = chash.tiobe < java.tiobe;
+                    if (first == true) {
+                        System.out.println("You win");
+                    } else {
+                        System.out.println("You lose");
+                    }
+                }
+
+                if (input.contains("second")) {
+                    boolean second = chash.pypl < java.pypl;
+                    if (second == true) {
+                        System.out.println("You win");
+                    } else {
+                        System.out.println("You lose");
+                    }
+                }
+
+                if (input.contains("third")) {
+                    boolean third = chash.so < java.so;
+                    if (third == true) {
+                        System.out.println("You win");
+                    } else {
+                        System.out.println("You lose");
+                    }
+                }
+
+                if (input.contains("fourth")) {
+                    boolean fourth = chash.gho < java.gho;
+                    if (fourth == true) {
+                        System.out.println("You win");
+                    } else {
+                        System.out.println("You lose");
+                    }
+                }
+
+                if (input.contains("fifth")) {
+                    boolean fifth = chash.intrv < java.intrv;
+                    if (fifth == true) {
+                        System.out.println("You win");
+                    } else {
+                        System.out.println("You lose");
+                    }
+                }
+
+                if (input.contains("summ")) {
+                    boolean summ = chash.tiobe + chash.pypl + chash.so + chash.gho + chash.intrv <
+                            java.tiobe + java.pypl + java.so + java.gho + java.intrv;
+                    if (summ == true) {
+                        System.out.println("You win");
+                    } else {
+                        System.out.println("You lose");
+                    }
+                }
+//            }
+
+//            else if (input.contains("python")) {
+//                if (input.contains("first")) {
+//                    boolean first = chash.tiobe < pyth.tiobe;
+//                    if (first == true) {
+//                        System.out.println("You win");
+//                    } else {
+//                        System.out.println("You lose");
+//                    }
+//                }
+//
+//                if (input.contains("second")) {
+//                    boolean second = chash.pypl < pyth.pypl;
+//                    if (second == true) {
+//                        System.out.println("You win");
+//                    } else {
+//                        System.out.println("You lose");
+//                    }
+//                }
+//
+//                if (input.contains("third")) {
+//                    boolean third = chash.so < pyth.so;
+//                    if (third == true) {
+//                        System.out.println("You win");
+//                    } else {
+//                        System.out.println("You lose");
+//                    }
+//                }
+//
+//                if (input.contains("fourth")) {
+//                    boolean fourth = chash.gho < pyth.gho;
+//                    if (fourth == true) {
+//                        System.out.println("You win");
+//                    } else {
+//                        System.out.println("You lose");
+//                    }
+//                }
+//
+//                if (input.contains("fifth")) {
+//                    boolean fifth = chash.intrv < pyth.intrv;
+//                    if (fifth == true) {
+//                        System.out.println("You win");
+//                    } else {
+//                        System.out.println("You lose");
+//                    }
+//                }
+//
+//                if (input.contains("summ")) {
+//                    boolean summ = chash.tiobe + chash.pypl + chash.so + chash.gho + chash.intrv <
+//                            pyth.tiobe + pyth.pypl + pyth.so + pyth.gho + pyth.intrv;
+//                    if (summ == true) {
+//                        System.out.println("You win");
+//                    } else {
+//                        System.out.println("You lose");
+//                    }
+//                }
+//            }
+
+        }
+
+
+
+
+
+
         
            
         
